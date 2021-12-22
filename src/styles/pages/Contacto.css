@@ -55,9 +55,10 @@ p{
 }
 .interno{
     width: 60%;
-    position: relative;
+    /* position: relative; */
     display: inline-flex;
-    margin-left: 16em;
+    margin-left: 19%;
+    margin-right: auto;
     float: center;
 }
 .todito{
@@ -74,3 +75,35 @@ p{
     padding-bottom: 8em;
 
 }
+
+@media (max-width: 850px){
+    body {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        background-color: #700B97;
+    }
+   .todito{
+        align-items: center;
+        width: 100%;
+        display: block;
+        background-color: #700B97;
+  }
+  .interno{
+      width: 100%;
+      display: block;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      background-color: #700B97;
+  }
+  .contacto{
+      width: 100%;
+      border-radius: 0%;
+  }
+  form{
+      width: 100%;
+      background-color: rgb(255, 255, 255, 1);
+      border-radius: 0;
+  }
+  }
