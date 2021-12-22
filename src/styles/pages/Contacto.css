@@ -1,7 +1,7 @@
 form{
     font-size: 1em;
     line-height: 2em;
-    width: 30%;
+    width: 50%;
     padding-top: 2em;
     padding-bottom: 2em;
     border: #38044d 1px solid;
@@ -19,11 +19,16 @@ form{
     background-color: #700B97;
     color: white; 
     width: 9em;
-    height: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    height: 4em;
     font-family: 'Arvo', serif;
 }
 .contacto{
-    width: 30%;
+    width: 50%;
     float: left;
     background-color: #700B97;
     margin-left: auto;
@@ -48,6 +53,13 @@ p{
     margin-left: 1em;
     text-align: justify;
 }
+.interno{
+    width: 60%;
+    position: relative;
+    display: inline-flex;
+    margin-left: 16em;
+    float: center;
+}
 .todito{
     margin-top: 0;
     font-family: 'Arvo', serif;
@@ -60,6 +72,5 @@ p{
     margin-top: 0%;
     padding-top: 3em;
     padding-bottom: 8em;
-    position: relative;
-    display: inline-flex;
+
 }

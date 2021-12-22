@@ -2,15 +2,16 @@ import '../styles/pages/Contacto.css';
 
 const ContactoPage = (props) => {
     return(
-        <main>
-         <section className="contacto">
+        <main className="todito">
+         <section className="interno">            
+         <div className="contacto">
           <h2>Información de contacto</h2>
           <br/>
           <h5>email: allen.perezma@gmail.com</h5>
   
           <br/>
           <p>Puede llenar el formulario que se encuentra a un lado en caso de requerir hacer una consulta o preferir contactar por ese medio. Le solicito que brinde la información de contacto requerida para tener una mejor devolución por mi parte.</p>
-         </section>
+         </div>
           <form method="post" name= "contacto-formulario"  action="https://formspree.io/f/moqrabpy" method="POST" id="form">
               <label for="name">Dejeme su nombre y apellido</label><br/>
               <input type="text" name="name" id="name" placeholder="Juan Perez"/><br/>
@@ -30,6 +31,8 @@ const ContactoPage = (props) => {
                   <br/>
                <input type="submit" id="enviarCorreo" value="¡Enviar!" class="button"/>
            </form>
+         </section>
+        
       </main>
     )
 } 

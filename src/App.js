@@ -10,6 +10,7 @@ import Footer from './components/layout/Footer';
 import Home from './pages/Home';
 import Contacto from './pages/Contacto';
 import React from "react";
+
 // import { render } from "react-dom";
 
 
@@ -20,9 +21,11 @@ function App() {
        <Header></Header>
        <Nav />
        <Routes>
+       <Route path="https://allenperezportafolio.web.app/" exact element = {<Home />}/>
         <Route path="/" exact element = {<Home />}/>
         <Route path="/home" exact element = {<Home />}/>
         <Route path="/contacto" exact element = {<Contacto />}/>
+        
       </Routes>
       <Footer />
      </Router>
