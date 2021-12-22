@@ -1,0 +1,65 @@
+form{
+    font-size: 1em;
+    line-height: 2em;
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: #38044d 1px solid;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 0 1em 1em 0;
+    color: #38044d;
+    float: right;
+    height: 35em;
+}
+.button{
+    background-color: #700B97;
+    color: white; 
+    width: 9em;
+    height: 3em;
+    font-family: 'Arvo', serif;
+}
+.contacto{
+    width: 30%;
+    float: left;
+    background-color: #700B97;
+    margin-left: auto;
+    border: 1px solid #250333;
+    height: 37em;
+    border-radius: 1em 0em 0em 1em;
+    padding-top: 2em;
+}
+h5{
+    font-size: 1.2em;
+    margin-right: auto;
+    text-align: center;
+}
+h2{
+   font-size: 3em;
+   margin-right: auto;
+   text-align: center;
+}
+p{
+    font-size: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    text-align: justify;
+}
+.todito{
+    margin-top: 0;
+    font-family: 'Arvo', serif;
+    color: aliceblue;
+    background-color: rgb(62, 6, 95, 0.6);
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0%;
+    padding-top: 3em;
+    padding-bottom: 8em;
+    position: relative;
+    display: inline-flex;
+}

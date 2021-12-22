@@ -1,0 +1,75 @@
+.button{
+    font-family: 'Arvo', serif;
+    width: 10em;
+    height: 5em;
+    float: right;
+    margin-right: 2em;
+    background-color: #700B97;
+    color: black;
+    border: black 1px solid;
+    border-radius: 1em;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1.5em;
+}
+p{
+    font-size: 1.2em;
+}
+.name{
+    font-family: 'Noto', serif;
+    width: 75%;
+    margin-left: -5em;
+    margin-right: auto;
+    text-align: start;
+}
+.descripcion{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{ 
+   font-size: 3.5em;
+}
+.iconos{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 3em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+
+}
+h3{
+    font-size: 1.5em;
+}
+main{
+    font-family: 'Arvo', serif;
+    margin-top: 0;
+    border-bottom: 1px solid #700B97;
+    color: aliceblue;
+    background-color: rgb(62, 6, 95, 0.6);
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0%;
+    padding-top: 3em;
+    padding-bottom: 9em;
+    position: relative;
+    
+  }
+
+  .button:hover{
+    background-color: rgb(236, 219, 242, 0.6);
+    cursor: pointer;
+    color: black;
+}
+
+  @media (max-width: 850px){
+    main{
+        align-items: center;
+        width: 100%;
+        display: block;
+        background-color: #700B97;
+  }
+  }

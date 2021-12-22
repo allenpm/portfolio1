@@ -1,0 +1,25 @@
+[debug] [2021-12-22T00:04:52.940Z] ----------------------------------------------------------------------
+[debug] [2021-12-22T00:04:52.942Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Athlon 3000g\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-22T00:04:52.943Z] CLI Version:   10.0.1
+[debug] [2021-12-22T00:04:52.943Z] Platform:      win32
+[debug] [2021-12-22T00:04:52.944Z] Node Version:  v16.13.0
+[debug] [2021-12-22T00:04:52.945Z] Time:          Tue Dec 21 2021 21:04:52 GMT-0300 (hora estándar de Argentina)
+[debug] [2021-12-22T00:04:52.945Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-22T00:04:53.026Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-22T00:04:53.027Z] > authorizing via signed-in user (allen.perezma@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Athlon 3000g\Desktop\Proyectos\nuevo\frontend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

@@ -1,0 +1,15 @@
+
+
+body{
+  background-image: url('body-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto; 
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+
