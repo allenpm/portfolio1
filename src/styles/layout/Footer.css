@@ -35,18 +35,22 @@ footer{
     width: 100%;
     padding: 0;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
 }
 .contactitos{
     width: 40%;
+    font-size: 0.7em;
+    padding-top: 0.65em;
 }
 i{
-    font-size: 1em;
+    font-size: 0.5em;
     padding-bottom: 0em;
 }
 .copyright{
     margin-left: 0;
     margin-right: 0;
+    font-size: 0.7em;
+    padding-top: 0.65em;
 }
 button{
     background-color: white;

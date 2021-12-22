@@ -72,10 +72,10 @@ main{
         width: 100%;
         display: block;
         background-color: #700B97;
-    
   }
   .name{
       width: 100%;
+      padding-left: 1.5em;
   }
   .descripcion{
       width: 100%;
