@@ -36,7 +36,7 @@ const Home = (props) => {
             <FontAwesomeIcon icon={ faWindowRestore} />
             <FontAwesomeIcon icon={ faTerminal } /> 
           </div>  
-          <a href= "https://cvinteractivoadpm.000webhostapp.com/" target="_blank" className="buttonhome">CV Interactivo</a>
+          <a href= "http://allenperez.42web.io/" target="_blank" className="buttonhome">CV Interactivo</a>
          </section>
         </main>
     )
